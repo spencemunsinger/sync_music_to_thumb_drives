@@ -2,6 +2,8 @@
 
 Two scripts for syncing a music library to a set of flash drives. The library is expected to contain one subfolder per artist, with albums and tracks nested inside.
 
+## music source structure
+
 ```
 /Volumes/matisse_space/Music/
 ├── Aerosmith/
@@ -13,7 +15,13 @@ Two scripts for syncing a music library to a set of flash drives. The library is
 └── ...
 ```
 
+## drive structure
+
+This was for a 2026 Honda Passport Stereo.  The drives used were SanDisk 256GB Ultra USB Type-C Flash Drive - SDCZ460-256G-G46, Black.  
+
 Drives are expected to be named `MUSE1`, `MUSE2`, `MUSE3`, etc. and formatted as **exFAT**.
+
+I tried several different sizes and makes of drives, most of which were not recognized.  These were.  I have approximately 700 GB of Apple Lossless music files to sync, and a single SSD drive or large flash drive failed to be found.  I set up four of them (one extra for future music) and it worked perfectly.
 
 ---
 
